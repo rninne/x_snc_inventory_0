@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2b6b906ddb3ad110f2f27d62f39619e2" label="Storage Container" max_length="40" name="x_snc_inventory_0_storage_container" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Position" max_length="40" name="position" type="string"/>
+    </element>
+</database>

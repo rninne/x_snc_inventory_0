@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c73f1061db7ad110f2f27d62f39619d2" label="Stocked Item" max_length="40" name="x_snc_inventory_0_stocked_item" type="collection">
+        <element label="Item" max_length="32" name="item" reference="x_snc_inventory_0_item" type="reference"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Stocktake" max_length="32" name="stocktake" reference="x_snc_inventory_0_stocktake" type="reference"/>
+        <element label="Storage Container" max_length="32" name="storage_container" reference="x_snc_inventory_0_storage_container" type="reference"/>
+        <index name="index">
+            <element name="item"/>
+        </index>
+        <index name="index2">
+            <element name="stocktake"/>
+        </index>
+        <index name="index3">
+            <element name="storage_container"/>
+        </index>
+    </element>
+</database>

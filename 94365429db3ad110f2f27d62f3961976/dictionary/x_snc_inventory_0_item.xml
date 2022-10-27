@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db8c94addb3ad110f2f27d62f39619e1" label="Item" max_length="40" name="x_snc_inventory_0_item" type="collection">
+        <element label="Barcode" max_length="40" name="barcode" type="integer"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
